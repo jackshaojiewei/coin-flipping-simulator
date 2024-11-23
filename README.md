@@ -14,10 +14,10 @@ Prerequisites
 
 How to Run
 
-    Clone this repository:
+Clone this repository:
 
-git clone https://github.com/jackshaojiewei/coin-flipping-simulator.git
-cd coin-flip-simulator
+    git clone https://github.com/jackshaojiewei/coin-flipping-simulator.git
+    cd coin-flip-simulator
 
 Run the script:
 
@@ -27,18 +27,18 @@ Run the script:
 
 Code Explanation
 
-import random
+    import random
 
-def flip_coin():
-    outcome = random.choice(["Heads", "Tails"])
-    return outcome
+    def flip_coin():
+        outcome = random.choice(["Heads", "Tails"])
+        return outcome
 
-result = flip_coin()
-print(f"The coin landed on: {result}")
+    result = flip_coin()
+    print(f"The coin landed on: {result}")
 
-    Imports: Uses the random module to select a random choice.
-    Function: flip_coin() returns a random outcome.
-    Output: Prints the result of the coin flip.
+Imports: Uses the random module to select a random choice.
+Function: flip_coin() returns a random outcome.
+Output: Prints the result of the coin flip.
 
 Customization
 
